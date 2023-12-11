@@ -253,6 +253,8 @@ function Checkbox({ BOXES }) {
           </button>
         </div>
       </div>
+      
+      <h2 className="card-title ">Pressupostos en curs:</h2>
       {listita.length > 0 && (
         <div>
           {listita.map((item) => (
